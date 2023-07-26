@@ -1,0 +1,5 @@
+# For TypeScript files
+*.ts linguist-language=TypeScript
+
+# For Solidity files
+*.sol linguist-language=Solidity
