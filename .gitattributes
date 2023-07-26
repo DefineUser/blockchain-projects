@@ -3,3 +3,6 @@
 
 # For Solidity files
 *.sol linguist-language=Solidity
+
+# For Javascript files
+*.js linguist-language=JavaScript
