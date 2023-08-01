@@ -6,3 +6,6 @@
 
 # For Javascript files
 *.js linguist-language=JavaScript
+
+# For SQL files
+*.sql linguist-language=SQL
