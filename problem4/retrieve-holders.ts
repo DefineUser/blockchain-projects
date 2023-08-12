@@ -5,7 +5,7 @@ const tokenContractAddress = '0xc0ecb8499d8da2771abcbf4091db7f65158f1468';
 const tokenDecimals = 8;  // SWTH token has 8 decimal places
 
 // ABI for ERC20 tokens
-const daiAbi = [
+const abi = [
   // Some details about the token
   "function name() view returns (string)",
   "function symbol() view returns (string)",
@@ -22,7 +22,7 @@ const addresses = [
 ];
 
 //Create new contract instance
-const tokenContract = new ethers.Contract(tokenContractAddress, daiAbi, provider);
+const tokenContract = new ethers.Contract(tokenContractAddress, abi, provider);
 
 async function retrieveHolders() {
   for (const address of addresses) {
