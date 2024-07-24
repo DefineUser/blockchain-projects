@@ -1,4 +1,3 @@
-# switcheoQuestions
-Switcheo interview questions
+# Blockchain projects
 
-Please note problem 6 is in a word doc that has been sent to Si Yun.
+Please refer to each project folder's README for a breakdown of the project
